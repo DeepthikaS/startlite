@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/startlite/static/css/main.7da39635.chunk.css",
-    "main.js": "/startlite/static/js/main.4fce81d8.chunk.js",
-    "main.js.map": "/startlite/static/js/main.4fce81d8.chunk.js.map",
-    "runtime-main.js": "/startlite/static/js/runtime-main.cee438d0.js",
-    "runtime-main.js.map": "/startlite/static/js/runtime-main.cee438d0.js.map",
-    "static/js/2.7f79c7f0.chunk.js": "/startlite/static/js/2.7f79c7f0.chunk.js",
-    "static/js/2.7f79c7f0.chunk.js.map": "/startlite/static/js/2.7f79c7f0.chunk.js.map",
-    "static/js/3.6821b036.chunk.js": "/startlite/static/js/3.6821b036.chunk.js",
-    "static/js/3.6821b036.chunk.js.map": "/startlite/static/js/3.6821b036.chunk.js.map",
+    "main.css": "/startlite/static/css/main.3672ff28.chunk.css",
+    "main.js": "/startlite/static/js/main.77fafbce.chunk.js",
+    "main.js.map": "/startlite/static/js/main.77fafbce.chunk.js.map",
+    "runtime-main.js": "/startlite/static/js/runtime-main.705abeeb.js",
+    "runtime-main.js.map": "/startlite/static/js/runtime-main.705abeeb.js.map",
+    "static/js/2.41d453f7.chunk.js": "/startlite/static/js/2.41d453f7.chunk.js",
+    "static/js/2.41d453f7.chunk.js.map": "/startlite/static/js/2.41d453f7.chunk.js.map",
+    "static/js/3.c075d594.chunk.js": "/startlite/static/js/3.c075d594.chunk.js",
+    "static/js/3.c075d594.chunk.js.map": "/startlite/static/js/3.c075d594.chunk.js.map",
     "index.html": "/startlite/index.html",
-    "static/css/main.7da39635.chunk.css.map": "/startlite/static/css/main.7da39635.chunk.css.map",
-    "static/js/2.7f79c7f0.chunk.js.LICENSE.txt": "/startlite/static/js/2.7f79c7f0.chunk.js.LICENSE.txt",
+    "static/css/main.3672ff28.chunk.css.map": "/startlite/static/css/main.3672ff28.chunk.css.map",
+    "static/js/2.41d453f7.chunk.js.LICENSE.txt": "/startlite/static/js/2.41d453f7.chunk.js.LICENSE.txt",
     "static/media/LineIcons.css": "/startlite/static/media/LineIcons.fb16b8b0.ttf",
     "static/media/baloon.f889b8d5.svg": "/startlite/static/media/baloon.f889b8d5.svg",
     "static/media/call-to-action.f261f36f.png": "/startlite/static/media/call-to-action.f261f36f.png",
@@ -23,9 +23,9 @@
     "static/media/style.css.7bb034be.map": "/startlite/static/media/style.css.7bb034be.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.cee438d0.js",
-    "static/js/2.7f79c7f0.chunk.js",
-    "static/css/main.7da39635.chunk.css",
-    "static/js/main.4fce81d8.chunk.js"
+    "static/js/runtime-main.705abeeb.js",
+    "static/js/2.41d453f7.chunk.js",
+    "static/css/main.3672ff28.chunk.css",
+    "static/js/main.77fafbce.chunk.js"
   ]
 }
