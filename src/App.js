@@ -4,8 +4,10 @@ import Home from './components/home'
 import Services from './components/services'
 import Pricing from './components/pricing'
 import Calltoaction from './components/calltoaction'
+import Testimonial from './components/testimonialcontainer/testimonial'
 import Contact from './components/contact'
 import Footer from './components/footer'
+import './components/assets/js/main.js'
 
 
 import './components/assets/css/bootstrap.min.css'
@@ -24,7 +26,7 @@ function App() {
       <Services/>
       <Pricing/>
       <Calltoaction/>
-      
+      <Testimonial/>
       <Contact/>
       <Footer/>
     </div>

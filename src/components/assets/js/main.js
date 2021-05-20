@@ -1,3 +1,4 @@
+import $ from 'jquery'
 $(function() {
     
     "use strict";
@@ -60,10 +61,10 @@ $(function() {
     
     //====== Magnific Popup
     
-    $('.video-popup').magnificPopup({
-        type: 'iframe'
-        // other options
-    });
+    // $('.video-popup').magnificPopup({
+    //     type: 'iframe'
+    //     // other options
+    // });
     
     
     //===== Back to top

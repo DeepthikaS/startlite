@@ -34,6 +34,9 @@ class Home extends React.Component{
                                         <a class="page-scroll" href="#pricing">PRICING</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a class="page-scroll" href="#testimonial">TESTIMONIAL</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="page-scroll" href="#contact">CONTACT</a>
                                     </li>
                                 </ul>
