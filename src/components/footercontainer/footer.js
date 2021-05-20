@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from './assets/images/logo.svg'
+import logo from '../assets/images/logo.svg'
+import Flinks from './flinks'
 
 class Footer extends React.Component{
     render(){
@@ -26,37 +27,11 @@ class Footer extends React.Component{
                     </div>
                 </div> 
                 <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Company</h6>
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Career</a></li>
-
-                            </ul>
-                        </div> 
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Product & Services</h6>
-                            <ul>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Developer</a></li>
-                            </ul>
-                        </div> 
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-5">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Help & Suuport</h6>
-                            <ul>
-                                <li><a href="#">Support Center</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <Flinks title="Company" a="About" b="Contact" c="Career" />
+                    <Flinks title="Product & Services" a="Products" b="Business" c="Developer" />
+                    {/* <div style={{marginRight:"95px"}}></div> */}
+                    <Flinks title="Help & Support" a="Support Center" b="FAQ" c="Terms & Conditions" />
+                    {/* <div style={{marginRight:"95px"}}></div> */}
                     <div class="col-lg-4 col-md-6 col-sm-7">
                         <div class="footer-newsletter">
                             <h6 class="footer-title">Subscribe Newsletter</h6>

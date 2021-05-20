@@ -530,13 +530,15 @@ p {
   position: relative;
   overflow: hidden;
   background-color: #fff; }
+  
   .single-pricing .pricing-header .sub-title {
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
     color: #121212;
     position: relative;
-    padding-bottom: 8px; }
+    padding-bottom: 8px;
+    padding-top: 0px; }
     .single-pricing .pricing-header .sub-title::before {
       position: absolute;
       content: '';
@@ -619,7 +621,8 @@ p {
   position: absolute;
   top: 0;
   right: -78px;
-  width: 156px; }
+  width: 156px;
+   }
 
 .single-pricing.enterprise .pricing-header .sub-title::before {
   right: 0;
@@ -911,7 +914,8 @@ p.form-message.error {
   font-weight: 700;
   line-height: 18px;
   color: #6c6c6c;
-  text-align: left; }
+  text-align: left;
+   }
 
 .footer-link {
   margin-top: 32px; }
@@ -940,6 +944,7 @@ p.form-message.error {
     margin-top: 24px;
     position: relative; }
     .footer-newsletter .newsletter input {
+      font-size: 16px;
       width: 100%;
       height: 44px;
       border-radius: 50px;
@@ -1105,9 +1110,58 @@ padding-bottom: 120px;
   
 }
 .carousel-indicators .active{
-  background-color: blue;
+  background-color: #007bff;
 }
 .carousel-indicators {
   bottom: -50px;
   margin-left: 18%;
+}
+
+/*Client area CSS */
+.client-logo-area{
+  margin-top: 150px;
+  -webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+font-size: 1rem;
+line-height: 1.5;
+text-align: left;
+font-family: poppins,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #121212;
+/* margin: 0; */
+padding: 0;
+box-sizing: border-box;
+display: block;
+background-color: #f4f6f7;
+padding-top: 80px;
+padding-bottom: 80px;
 }

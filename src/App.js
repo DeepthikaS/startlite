@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/home'
-import Services from './components/services'
-import Pricing from './components/pricing'
+import Services from './components/servicescontainer/services'
+import Pricing from './components/pricingcontainer/pricing'
 import Calltoaction from './components/calltoaction'
 import Testimonial from './components/testimonialcontainer/testimonial'
-import Contact from './components/contact'
-import Footer from './components/footer'
+import Client from './components/clientcontainer/client'
+import Contact from './components/contactcontainer/contact'
+import Footer from './components/footercontainer/footer'
 import './components/assets/js/main.js'
 
 
@@ -27,6 +28,7 @@ function App() {
       <Pricing/>
       <Calltoaction/>
       <Testimonial/>
+      <Client/>
       <Contact/>
       <Footer/>
     </div>

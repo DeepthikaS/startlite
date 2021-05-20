@@ -1,4 +1,5 @@
 import React from 'react'
+import Form from './form'
 
 class Contact extends React.Component{
     render(){
@@ -18,30 +19,11 @@ class Contact extends React.Component{
                         <div class="contact-form">
                             <form id="contact-form" action="assets/contact.php" method="post" data-toggle="validator">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="single-form form-group">
-                                            <input type="text" name="name" placeholder="Your Name" data-error="Name is required." required="required"/>
-                                            <div class="help-block with-errors"></div>
-                                        </div> 
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-form form-group">
-                                            <input type="email" name="email" placeholder="Your Email" data-error="Valid email is required." required="required"/>
-                                            <div class="help-block with-errors"></div>
-                                        </div> 
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-form form-group">
-                                            <input type="text" name="subject" placeholder="Subject" data-error="Subject is required." required="required"/>
-                                            <div class="help-block with-errors"></div>
-                                        </div> 
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-form form-group">
-                                            <input type="text" name="phone" placeholder="Phone" data-error="Phone is required." required="required"/>
-                                            <div class="help-block with-errors"></div>
-                                        </div> 
-                                    </div>
+                                    <Form type="text" names="name" pholder="Your Name" de="Name is required." />
+                                    <Form type="email" names="email" pholder="Your Email" de="Valid Email is required." />
+                                    <Form type="text" names="subject" pholder="Subject" de="Subject is required." />
+                                    <Form type="text" names="phone" pholder="Phone" de="Phone is required." />
+                                    
                                     <div class="col-md-12">
                                         <div class="single-form form-group">
                                             <textarea placeholder="Your Mesaage" name="message" data-error="Please, leave us a message." required="required"></textarea>
